@@ -628,6 +628,16 @@ footer {
     color: var(--green);
 }
 
+footer a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--green);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     h2 {
@@ -771,6 +781,10 @@ footer {
     nav a {
         font-size: 1.5rem;
     }
+
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 /* Modal Styles */
@@ -824,4 +838,39 @@ footer {
     line-height: 1;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Feedback Form Styles */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.feedback-form label {
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: -5px; /* Reduces space below label */
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.feedback-form .cta-button {
+    align-self: flex-end;
+    margin-top: 10px;
 }

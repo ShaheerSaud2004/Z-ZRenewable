@@ -262,7 +262,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 Z&Z Consulting. All rights reserved.</p>
+            <p>&copy; 2024 Z&Z Consulting. All rights reserved. | <a href="#" id="feedback-link">Feedback? Click here!</a></p>
             <div class="social-links">
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -270,6 +270,26 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-overlay" id="feedback-modal">
+        <div class="modal-content">
+            <button class="modal-close-button">&times;</button>
+            <h3>Submit Feedback</h3>
+            <p>We'd love to hear your thoughts. Please fill out the form below.</p>
+            <form action="https://formspree.io/f/example" method="POST" class="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback-message">Feedback:</label>
+                <textarea id="feedback-message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Feedback</button>
+            </form>
+        </div>
+    </div>
 
     <script>
         // Fade-in animation observer
@@ -306,6 +326,15 @@
         const openModalButtons = document.querySelectorAll('[data-modal-target]');
         const closeModalButtons = document.querySelectorAll('.modal-close-button');
         const overlay = document.querySelector('.modal-overlay');
+        const feedbackLink = document.getElementById('feedback-link');
+        const feedbackModal = document.getElementById('feedback-modal');
+
+        if (feedbackLink) {
+            feedbackLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                openModal(feedbackModal);
+            });
+        }
 
         openModalButtons.forEach(button => {
             button.addEventListener('click', () => {
@@ -314,19 +343,19 @@
             });
         });
 
-        if (overlay) {
-            overlay.addEventListener('click', (e) => {
-                if (e.target === overlay) {
-                    const modal = overlay.querySelector('.modal-content').parentElement;
-                    closeModal(modal);
-                }
-            });
-        }
-        
         closeModalButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const modal = button.closest('.modal-overlay');
                 closeModal(modal);
+            });
+        });
+
+        // Close modal if overlay is clicked
+        document.querySelectorAll('.modal-overlay').forEach(modal => {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal(modal);
+                }
             });
         });
 
