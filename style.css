@@ -592,6 +592,16 @@ nav a:hover {
     margin: 0 0 10px 0;
 }
 
+.incentive-disclaimer {
+    font-size: 0.75rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 15px;
+    line-height: 1.4;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
 /* Recent Projects Section */
 .projects-grid {
     display: grid;
