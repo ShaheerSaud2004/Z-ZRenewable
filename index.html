@@ -19,11 +19,12 @@
             </button>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
+                <li><a href="#recent-projects">Projects</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
                 <li><a href="#process">Process</a></li>
                 <li><a href="#nj-incentives">Incentives</a></li>
-                <li><a href="#recent-projects">Projects</a></li>
-                <li><a href="#partners">Partners</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#partners">Partners</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -68,37 +69,467 @@
             </div>
         </section>
 
-        <section id="about" class="fade-in">
-            <div class="about-container">
-                <div class="about-content">
-                    <h2>About Z&Z Renewable</h2>
-                    <p>With over a decade of experience, Z&Z Renewable is a trusted partner for homeowners and businesses seeking to transition to clean energy. Our team of expert technicians is dedicated to providing tailored solar solutions that deliver measurable savings and a smaller carbon footprint.</p>
-                    <p>We believe in a collaborative approach, working closely with our clients to design and install systems that meet their unique energy needs and financial goals. Our mission is to make solar energy accessible and affordable for everyone.</p>
+        <section id="recent-projects" class="fade-in">
+            <div class="container">
+                <h2>Our Recent Projects</h2>
+                <p class="gallery-intro">Take a look at our latest solar installations across New Jersey. Each project represents our commitment to quality, efficiency, and customer satisfaction.</p>
+                
+                <!-- Gallery Filter Buttons -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="rooftop">Rooftop</button>
                 </div>
-                <div class="about-image">
-                    <img src="SolarPanels.webp" alt="Solar panels on a roof">
+
+                <!-- Photo Gallery Grid -->
+                <div class="photo-gallery">
+                    <div class="gallery-item residential rooftop" data-title="Residential Solar Installation">
+                        <img src="0A6940E5-12CA-4A7B-8D0F-2D0D93B6652D.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Solar Panel System">
+                        <img src="0E704683-4CB9-4CCE-B42F-61DDDD1D7E7F.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Commercial Solar Array">
+                        <img src="0F02AC9F-E359-437A-90DE-5534C557D71F.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Suburban Home Installation">
+                        <img src="153D2A5F-CA9F-41A0-BD17-02D5138E4241.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Large Scale Solar Project">
+                        <img src="17B83542-88EC-4870-BF03-BDFDAC038565.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Modern Home Solar System">
+                        <img src="19D33BEA-4D87-4B60-B162-37E172A01414.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Residential Solar Installation">
+                        <img src="28833CD7-FA1C-4896-A327-3406788B6D82.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Business Solar Solution">
+                        <img src="2F4E7455-9A62-4B5D-BBB3-961CA3F21BEE.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Family Home Solar Panels">
+                        <img src="2FA7F8A9-14A9-4890-A68D-353DCDE91513.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Efficient Solar System">
+                        <img src="3DF1456C-821F-4A62-81F2-5FEC9230337D.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Commercial Solar Array">
+                        <img src="3E4A3D07-3C74-4DCC-B26E-1205C52B03B9.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Energy Solution">
+                        <img src="407FB5CE-1461-4674-8B74-8797DF0F7E8D.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Solar Panel Installation">
+                        <img src="48D639CC-46E8-4C49-AC4A-2807EC0C306D.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Large Commercial Project">
+                        <img src="4E5044B0-A927-422B-BC43-2CD9BCDC3F5F.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Residential Solar Array">
+                        <img src="4E56C71B-6E17-4C9E-837A-E1A343DB2032.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Business Solar Installation">
+                        <img src="4EFAB32E-C103-4A8B-BC16-BB22E84DA12B.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Modern Solar System">
+                        <img src="5D795DA5-BA7D-4382-9D6A-B191695CF299.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Solar Installation">
+                        <img src="5F69F310-C99F-4F73-96A6-9F8B83933427.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Commercial Solar Project">
+                        <img src="5F6ACFB1-037A-45A5-9FD1-C43F07E01847.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Efficient Home Solar">
+                        <img src="6515546A-B55C-4D8C-89BB-635021C67D05.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Solar Panel System">
+                        <img src="670658A1-C861-4B99-9B58-9A6C4976CB12.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Business Energy Solution">
+                        <img src="6CF345AC-428C-423A-84DE-D6366B3D0234.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Residential Solar Panels">
+                        <img src="7185C2D7-279A-4B61-9293-FCF0F0B67A6B.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Large Scale Installation">
+                        <img src="7400F0EA-2FB2-46EE-9844-8B03B55C2BDF.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Solar Array">
+                        <img src="7673DFB4-638B-41C8-A2FB-892C0F0C6934.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Modern Home Installation">
+                        <img src="7EBA0FE1-E923-4973-A531-6C7B625CA003.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Commercial Solar System">
+                        <img src="7EEAB19B-E63D-4E9A-8AAD-0CF641AF9CE7.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Efficient Solar Installation">
+                        <img src="7F7C766B-CFF0-430E-9B07-3C4DCCF525D8.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Family Home Solar">
+                        <img src="853C755D-B5B0-42C5-A6E6-464D71683793.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Business Solar Array">
+                        <img src="88E047A1-2223-4063-A796-04FA29ABDB2A.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Energy System">
+                        <img src="8B265827-0D39-459D-A58B-69C917CDD3DC.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Solar Panel Installation">
+                        <img src="8E0042C0-A403-47A4-9262-2FB08344268E.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Large Commercial Solar">
+                        <img src="95BF2AB7-E0F9-474A-9B4B-14BD2A18686B.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Modern Solar Installation">
+                        <img src="986B4D78-1818-40A7-BECB-3FAF5045F118.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Residential Solar System">
+                        <img src="9AD475DA-FFE7-4165-9D1D-FBF7722F5F8F.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Business Solar Installation">
+                        <img src="9B31E42D-52EF-46EF-8A13-53BDDE2E6B99.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Solar Panels">
+                        <img src="A01F31F8-09B8-4E62-9B9B-1DEF88B60979.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Efficient Home Solar">
+                        <img src="A22AC28A-8891-475B-82FD-D5F9205125F2.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Commercial Solar Project">
+                        <img src="B64032E7-69B8-4B4E-9BFC-71081176F44E.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Solar Installation Project">
+                        <img src="B8E3240C-F41F-44ED-8D2D-A2EA8582D8CB.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Modern Home Solar">
+                        <img src="BC968BA0-E96C-4565-8806-F7A10595FCFF.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Business Energy Solution">
+                        <img src="BF6375A9-DD2A-4823-86E4-CCCE5C5D35C8.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Residential Solar Array">
+                        <img src="C8A44326-4553-4C16-B904-02A31CDF7421.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Home Solar System">
+                        <img src="CEADECBF-10D2-4DCE-8C69-7D93AFC624B3.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Large Scale Solar">
+                        <img src="E01B79B5-781C-43CD-AE03-A35423A4B4AA.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Solar Panel Installation">
+                        <img src="E757E0DC-035D-4DF7-8801-905420FDF708.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Modern Solar Installation">
+                        <img src="E75E1FE5-E719-43AA-9D33-4216C63E6C67.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item commercial rooftop" data-title="Commercial Solar System">
+                        <img src="ED57BF65-C224-453F-BE8B-A8C334A6FD39.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Family Home Solar">
+                        <img src="F19EE9CF-DD4E-4A20-842A-7B6FA7BE2190.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential rooftop" data-title="Efficient Solar System">
+                        <img src="F8A979F6-AAB3-4214-B34A-F54753C9ED1F.jpeg" alt="Solar Installation Project" loading="lazy">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="gallery-load-more">
+                    <button class="cta-button" id="load-more-btn">Load More Projects</button>
                 </div>
             </div>
         </section>
 
-        <section id="why-choose-us" class="fade-in">
+        <!-- Lightbox Modal for Gallery -->
+        <div class="lightbox-overlay" id="lightbox">
+            <div class="lightbox-content">
+                <button class="lightbox-close">&times;</button>
+                <img class="lightbox-image" src="" alt="">
+                <div class="lightbox-caption"></div>
+                <button class="lightbox-prev">❮</button>
+                <button class="lightbox-next">❯</button>
+            </div>
+        </div>
+
+        <section id="testimonials" class="fade-in">
             <div class="container">
-                <h2>Why Choose Us?</h2>
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <i class="fas fa-medal"></i>
-                        <h3>Expert Quality</h3>
-                        <p>Our certified technicians ensure the highest standards of installation and service, maximizing the performance and longevity of your solar energy system.</p>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <h3>Affordable Pricing</h3>
-                        <p>We offer competitive pricing and flexible financing options to make solar energy an accessible and cost-effective investment for everyone.</p>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-headset"></i>
-                        <h3>Customer Focused</h3>
-                        <p>Your satisfaction is our priority. We provide dedicated support throughout the entire process, from initial consultation to post-installation monitoring.</p>
+                <h2>What Our Clients Say</h2>
+                <div class="testimonials-carousel">
+                    <div class="testimonials-track">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"These guys handled everything, permits, scheduling, even HOA stuff. All I had to do was say yes."</p>
+                            <p class="testimonial-author">- Nancy Zado</p>
+                            <p class="testimonial-date">a month ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Zayn was very knowledgeable, honest, and this was not a high pressure sale whatsoever. He gave me the information and answered my questions, and did not force me to do it but educated me and made me want to work with this amazing team. Very personable gentleman."</p>
+                            <p class="testimonial-author">- Michael Kritz</p>
+                            <p class="testimonial-date">3 days ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Very great service. Zayn explained everything very well and convinced me of going solar which is not easy."</p>
+                            <p class="testimonial-author">- Angela Hill</p>
+                            <p class="testimonial-date">3 weeks ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"They made me feel like more than just another customer. Super responsive and easy to work with."</p>
+                            <p class="testimonial-author">- Layan Radwann</p>
+                            <p class="testimonial-date">a month ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Everyone I spoke to was friendly, knowledgeable, and genuinely cared about doing a great job. Highly recommend."</p>
+                            <p class="testimonial-author">- Marian Bedros</p>
+                            <p class="testimonial-date">a month ago</p>
+                        </div>
+                        <!-- Third set of duplicates for extra smooth looping -->
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"These guys handled everything, permits, scheduling, even HOA stuff. All I had to do was say yes."</p>
+                            <p class="testimonial-author">- Nancy Zado</p>
+                            <p class="testimonial-date">a month ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Zayn was very knowledgeable, honest, and this was not a high pressure sale whatsoever. He gave me the information and answered my questions, and did not force me to do it but educated me and made me want to work with this amazing team. Very personable gentleman."</p>
+                            <p class="testimonial-author">- Michael Kritz</p>
+                            <p class="testimonial-date">3 days ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Very great service. Zayn explained everything very well and convinced me of going solar which is not easy."</p>
+                            <p class="testimonial-author">- Angela Hill</p>
+                            <p class="testimonial-date">3 weeks ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"They made me feel like more than just another customer. Super responsive and easy to work with."</p>
+                            <p class="testimonial-author">- Layan Radwann</p>
+                            <p class="testimonial-date">a month ago</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Everyone I spoke to was friendly, knowledgeable, and genuinely cared about doing a great job. Highly recommend."</p>
+                            <p class="testimonial-author">- Marian Bedros</p>
+                            <p class="testimonial-date">a month ago</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,26 +558,6 @@
                         <div class="process-icon">4</div>
                         <h3>Activation & Monitoring</h3>
                         <p>We'll handle the final inspection and activation. You can start generating clean energy and monitor your system's performance with ease.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials" class="fade-in">
-            <div class="container">
-                <h2>What Our Clients Say</h2>
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <p class="testimonial-text">"Z&Z Renewable made the switch to solar completely seamless. The team was professional, the installation was flawless, and our energy bills have never been lower. Highly recommended!"</p>
-                        <p class="testimonial-author">- Sarah J., Homeowner</p>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="testimonial-text">"The entire process, from the initial quote to the final activation, was handled with incredible expertise. We were impressed by their attention to detail and commitment to quality."</p>
-                        <p class="testimonial-author">- Mark T., Business Owner</p>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="testimonial-text">"A truly five-star experience. Their custom design has maximized our energy savings far beyond our expectations. We couldn't be happier with our new solar system."</p>
-                        <p class="testimonial-author">- Emily R., Homeowner</p>
                     </div>
                 </div>
             </div>
@@ -181,30 +592,37 @@
             </div>
         </section>
 
-        <section id="recent-projects" class="fade-in">
+        <section id="about" class="fade-in">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>About Z&Z Renewable</h2>
+                    <p>With over a decade of experience, Z&Z Renewable is a trusted partner for homeowners and businesses seeking to transition to clean energy. Our team of expert technicians is dedicated to providing tailored solar solutions that deliver measurable savings and a smaller carbon footprint.</p>
+                    <p>We believe in a collaborative approach, working closely with our clients to design and install systems that meet their unique energy needs and financial goals. Our mission is to make solar energy accessible and affordable for everyone.</p>
+                </div>
+                <div class="about-image">
+                    <img src="SolarPanels.webp" alt="Solar panels on a roof">
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="fade-in">
             <div class="container">
-                <h2>Recent Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/400x300.png?text=Suburban+Home" alt="Project 1">
-                        <div class="project-info">
-                            <h3>Suburban Home Installation</h3>
-                            <p>A 10kW system designed to cover 100% of family's energy needs.</p>
-                        </div>
+                <h2>Why Choose Us?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-medal"></i>
+                        <h3>Expert Quality</h3>
+                        <p>Our certified technicians ensure the highest standards of installation and service, maximizing the performance and longevity of your solar energy system.</p>
                     </div>
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/400x300.png?text=Commercial+Roof" alt="Project 2">
-                        <div class="project-info">
-                            <h3>Small Business System</h3>
-                            <p>A 50kW rooftop installation for a local business, reducing overhead costs.</p>
-                        </div>
+                    <div class="feature-item">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <h3>Affordable Pricing</h3>
+                        <p>We offer competitive pricing and flexible financing options to make solar energy an accessible and cost-effective investment for everyone.</p>
                     </div>
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/400x300.png?text=Modern+Residence" alt="Project 3">
-                        <div class="project-info">
-                            <h3>Modern Residence</h3>
-                            <p>Sleek, low-profile panels complementing a modern architectural design.</p>
-                        </div>
+                    <div class="feature-item">
+                        <i class="fas fa-headset"></i>
+                        <h3>Customer Focused</h3>
+                        <p>Your satisfaction is our priority. We provide dedicated support throughout the entire process, from initial consultation to post-installation monitoring.</p>
                     </div>
                 </div>
             </div>
@@ -262,7 +680,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 Z&Z Consulting. All rights reserved.</p>
+            <p>&copy; 2024 Z&Z Consulting. All rights reserved. | <a href="#" id="feedback-link">Feedback? Click here!</a></p>
             <div class="social-links">
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -270,6 +688,26 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-overlay" id="feedback-modal">
+        <div class="modal-content">
+            <button class="modal-close-button">&times;</button>
+            <h3>Submit Feedback</h3>
+            <p>We'd love to hear your thoughts. Please fill out the form below.</p>
+            <form action="https://formspree.io/f/example" method="POST" class="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback-message">Feedback:</label>
+                <textarea id="feedback-message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Feedback</button>
+            </form>
+        </div>
+    </div>
 
     <script>
         // Fade-in animation observer
@@ -306,6 +744,15 @@
         const openModalButtons = document.querySelectorAll('[data-modal-target]');
         const closeModalButtons = document.querySelectorAll('.modal-close-button');
         const overlay = document.querySelector('.modal-overlay');
+        const feedbackLink = document.getElementById('feedback-link');
+        const feedbackModal = document.getElementById('feedback-modal');
+
+        if (feedbackLink) {
+            feedbackLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                openModal(feedbackModal);
+            });
+        }
 
         openModalButtons.forEach(button => {
             button.addEventListener('click', () => {
@@ -314,19 +761,19 @@
             });
         });
 
-        if (overlay) {
-            overlay.addEventListener('click', (e) => {
-                if (e.target === overlay) {
-                    const modal = overlay.querySelector('.modal-content').parentElement;
-                    closeModal(modal);
-                }
-            });
-        }
-        
         closeModalButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const modal = button.closest('.modal-overlay');
                 closeModal(modal);
+            });
+        });
+
+        // Close modal if overlay is clicked
+        document.querySelectorAll('.modal-overlay').forEach(modal => {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal(modal);
+                }
             });
         });
 
@@ -341,6 +788,166 @@
             modal.classList.remove('is-visible');
             document.body.classList.remove('modal-open');
         }
+
+        // Photo Gallery Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.querySelector('.lightbox-image');
+            const lightboxCaption = document.querySelector('.lightbox-caption');
+            const lightboxClose = document.querySelector('.lightbox-close');
+            const lightboxPrev = document.querySelector('.lightbox-prev');
+            const lightboxNext = document.querySelector('.lightbox-next');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            
+            let currentImageIndex = 0;
+            let visibleImages = Array.from(galleryItems);
+            let itemsToShow = 12;
+            let currentlyShown = 0;
+
+            // Initialize gallery - show first 12 items
+            function initGallery() {
+                galleryItems.forEach((item, index) => {
+                    if (index < itemsToShow) {
+                        item.style.display = 'block';
+                        currentlyShown++;
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+                
+                updateLoadMoreButton();
+            }
+
+            // Filter functionality
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    const filter = button.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.classList.contains(filter)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+
+                    // Update visible images array for lightbox
+                    visibleImages = Array.from(galleryItems).filter(item => 
+                        item.style.display !== 'none'
+                    );
+
+                    // Reset load more functionality
+                    currentlyShown = Math.min(itemsToShow, visibleImages.length);
+                    visibleImages.forEach((item, index) => {
+                        if (index < itemsToShow) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                    
+                    updateLoadMoreButton();
+                });
+            });
+
+            // Load more functionality
+            loadMoreBtn.addEventListener('click', () => {
+                const itemsToAdd = 12;
+                const currentFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                
+                let addedCount = 0;
+                galleryItems.forEach((item, index) => {
+                    if (addedCount < itemsToAdd && 
+                        item.style.display === 'none' && 
+                        (currentFilter === 'all' || item.classList.contains(currentFilter))) {
+                        item.style.display = 'block';
+                        currentlyShown++;
+                        addedCount++;
+                    }
+                });
+                
+                updateLoadMoreButton();
+            });
+
+            function updateLoadMoreButton() {
+                const currentFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                const totalFilteredItems = Array.from(galleryItems).filter(item => 
+                    currentFilter === 'all' || item.classList.contains(currentFilter)
+                ).length;
+                
+                if (currentlyShown >= totalFilteredItems) {
+                    loadMoreBtn.style.display = 'none';
+                } else {
+                    loadMoreBtn.style.display = 'inline-block';
+                }
+            }
+
+            // Lightbox functionality
+            galleryItems.forEach((item, index) => {
+                item.addEventListener('click', () => {
+                    if (item.style.display !== 'none') {
+                        currentImageIndex = visibleImages.indexOf(item);
+                        openLightbox();
+                    }
+                });
+            });
+
+            function openLightbox() {
+                const currentItem = visibleImages[currentImageIndex];
+                const img = currentItem.querySelector('img');
+                const title = currentItem.getAttribute('data-title');
+                
+                lightboxImage.src = img.src;
+                lightboxCaption.textContent = title;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeLightbox() {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+
+            function showPrevImage() {
+                currentImageIndex = currentImageIndex > 0 ? currentImageIndex - 1 : visibleImages.length - 1;
+                openLightbox();
+            }
+
+            function showNextImage() {
+                currentImageIndex = currentImageIndex < visibleImages.length - 1 ? currentImageIndex + 1 : 0;
+                openLightbox();
+            }
+
+            // Lightbox event listeners
+            lightboxClose.addEventListener('click', closeLightbox);
+            lightboxPrev.addEventListener('click', showPrevImage);
+            lightboxNext.addEventListener('click', showNextImage);
+            
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (lightbox.classList.contains('active')) {
+                    if (e.key === 'Escape') closeLightbox();
+                    if (e.key === 'ArrowLeft') showPrevImage();
+                    if (e.key === 'ArrowRight') showNextImage();
+                }
+            });
+
+            // Initialize the gallery
+            initGallery();
+        });
     </script>
 
 </body>
